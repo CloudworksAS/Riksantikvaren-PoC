@@ -1,5 +1,5 @@
 {
-  "domain": "riksantikvaren.cic-demo-platform.auth0app.com",
-  "clientId": "6pTn2irTyB25jIGNCer52diKP0xi1f7N",
+  "domain": "cw-riksantikvaren-poc.eu.auth0.com",
+  "clientId": "QGIho4ilfLE2Kch1rWJRFTw0BBV3Wyd2",
   "audience": "https://askeladden.riksantikvaren.no"
 }
