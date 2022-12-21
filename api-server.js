@@ -46,7 +46,7 @@ const checkJwt = jwt({
 app.get("/api/:fylke/:kommune/:type_minne/:navn_paa_minne", (req, res) => {
   const namespace = 'https://riksantikvaren.no/'
   const {fylke, kommune, type_minne, navn_paa_minne} = req.params
-  const requiredPermission = `helelandet_${fylke}_${kommune}_${type_minne}_${navn_paa_minne}`
+  const requiredPermission = `${fylke}_${kommune}_${type_minne}_${navn_paa_minne}`
   const permissions = req.auth.token[`${namespace}askeladdenPermissions`]
 
   var haveAccess = false
