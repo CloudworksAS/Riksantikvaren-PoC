@@ -1,5 +1,5 @@
 {
-  "domain": "dev-ub-vnov4.us.auth0.com",
-  "clientId": "Pfqkq9cl4VZJucsWKzzUEtJXLUBkv9a9",
-  "audience": "https://riksantikvaren-api"
+  "domain": "riksantikvaren.cic-demo-platform.auth0app.com",
+  "clientId": "6pTn2irTyB25jIGNCer52diKP0xi1f7N",
+  "audience": "https://askeladden.riksantikvaren.no"
 }
